@@ -16,6 +16,12 @@ those repositories, with secrets replaced by dummy values.
 |---|---|
 | [gitops](https://github.com/MatejK97/gitops) | Everything on the k3s cluster, deployed by ArgoCD (app-of-apps), with SOPS-encrypted secrets |
 | [ci-templates](https://github.com/MatejK97/ci-templates) | Shared GitLab CI pipelines: compose validation, SSH deploys, gitleaks and Trivy |
+| [traefik](https://github.com/MatejK97/traefik) | Reverse proxy with public and VPN-only entrypoints, TLS via Cloudflare DNS-01 |
+| [gitlab](https://github.com/MatejK97/gitlab) | Self-hosted GitLab CE, VPN-only, tuned for one user |
+| [gitlab-runner](https://github.com/MatejK97/gitlab-runner) | GitLab Runner with the Docker executor; deploys pinned to it |
+| [renovate](https://github.com/MatejK97/renovate) | Self-hosted Renovate CE opening dependency-update MRs |
+| [bind9](https://github.com/MatejK97/bind9) | Internal DNS, validated and deployed by CI |
+| [terraform](https://github.com/MatejK97/terraform) | GitLab's own projects and settings as code, plan on MR, manual apply |
 
 The rest of this page is the full write-up of how the lab is built, why, and
 what went wrong along the way.
