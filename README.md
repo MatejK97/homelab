@@ -22,6 +22,7 @@ those repositories, with secrets replaced by dummy values.
 | [renovate](https://github.com/MatejK97/renovate) | Self-hosted Renovate CE opening dependency-update MRs |
 | [bind9](https://github.com/MatejK97/bind9) | Internal DNS, validated and deployed by CI |
 | [terraform](https://github.com/MatejK97/terraform) | GitLab's own projects and settings as code, plan on MR, manual apply |
+| [ansible](https://github.com/MatejK97/ansible) | Host configuration for the VPS and home VM: hardening, WireGuard, Docker, k3s, backups |
 
 The rest of this page is the full write-up of how the lab is built, why, and
 what went wrong along the way.
